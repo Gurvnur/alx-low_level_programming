@@ -12,16 +12,16 @@ char *cap_string(char *str)
 	int len = 13;
 	int a = 0, i;
 
-	while (*str[a])
+	while (str[a])
 	{
 		i = 0;
 		while (i < len)
 		{
-			if ((a == 0 || s[a - 1]) && (s[a] >= 97 && s[a] <= 122))
-				s[a] = s[a] - 32;
+			if ((a == 0 || str[a - 1]) && (str[a] >= 97 && str[a] <= 122))
+				str[a] = str[a] - 32;
 			i++;
 		}
 		a++;
 	}
-	return (*str);
+	return (str);
 }
