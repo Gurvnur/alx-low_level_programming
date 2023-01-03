@@ -1,5 +1,13 @@
 #ifndef "MAIN_H"
 #define "MAIN_H"
+
+/**
+ * File: main.h
+ * Auth: all
+ * description: header file containing prototypes for all functions
+ * used
+ */
+
 #include <stddef.h>
 
 int _putchar(char c);
